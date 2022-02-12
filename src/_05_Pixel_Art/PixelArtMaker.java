@@ -1,3 +1,6 @@
+// Tried running with screen size 400 x 400, and row-col grid 10 x 10
+// -> color swatch control works, but pixel grid ("GridPanel"?) not rendering properly
+
 package _05_Pixel_Art;
 
 import java.awt.FlowLayout;

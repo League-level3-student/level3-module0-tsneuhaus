@@ -41,6 +41,7 @@ public class TheWrongWayCowTest {
     return field;
   }
   
+  
   @Test
   public void simple() {
     final char[][] field = new char[][] {
@@ -51,6 +52,7 @@ public class TheWrongWayCowTest {
       };
     assertArrayEquals(new int[]{3,0}, TheWrongWayCow.findWrongWayCow(show(field)));
   }
+
 
   @Test
   public void ex1() {
@@ -75,6 +77,8 @@ public class TheWrongWayCowTest {
     assertArrayEquals(new int[]{8,4}, TheWrongWayCow.findWrongWayCow(show(field)));
   }
 
+ 
+   
   @Test
   public void aFieldFullOfJunk() {
     final char[][] field = new char[][] {

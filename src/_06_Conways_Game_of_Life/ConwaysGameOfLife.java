@@ -90,9 +90,11 @@ public class ConwaysGameOfLife extends JPanel implements ActionListener{
                 startStopButton.setText("START");
             }
         }else if(e.getSource() == randomizeButton) {
+System.out.println("pressed randomize button");
             gamePanel.randomizeCells();
         }else if(e.getSource() == clearButton) {
-            gamePanel.clearCells();
+System.out.println("pressed clear button");
+        	gamePanel.clearCells();
         }
     }
 }
